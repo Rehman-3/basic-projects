@@ -1,0 +1,276 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#home{
+    background-image:  url("images/nick-karvounis-Ciqxn7FE4vE-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    list-style: none;
+
+}
+header{
+    width: 100%;
+    height: 8vh;
+    background-color: brown;
+    position: fixed;
+    z-index: 999;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-links li a:hover{
+color: yellow;
+transition: 0.6s ease;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#specials{
+    background-image: url(images/special.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#cooks{
+    background-image: url(images/cooks.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#about{
+    background-image: url(images/about.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.homePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#home h1{
+    margin-top: 175px;
+    padding: 5px 100px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+p{
+    padding: 5px 100px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+ .homePage a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2.5px solid brown;
+    color: white;
+    border-radius: 25px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  
+}
+.homePage a:hover{
+    background-color: brown;
+    color: white;
+    transition: 0.6s ease-in-out;
+}
+#specials h1{
+    padding-top :70px;
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+#cooks h1{
+    padding-top :70px;
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+#about h1{
+    padding-top :70px;
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.card{
+    background: wheat;
+    width: 270px;
+    margin: 20px;
+    border-radius: 35px;
+}
+.card-image{
+    height: 100px;
+    margin-bottom: 15px ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0 ;
+}
+.car-1{
+    background-image: url(/images/ayesha-firdaus-c3esWyvW3E4-unsplash.jpg);
+}
+.car-2{
+    background-image: url(/images/burger.jpg);
+}
+.car-3{
+    background-image: url(/images/applepie.jpg);
+}
+.card h2{
+    font-size: 15px;
+    margin: 5px;
+    padding: 0%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.pc{
+    font-size: 15px;
+    padding: 10px;
+    
+}
+.card a{
+    background-color: brown;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.card:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.00000000001);
+    transition: all 1s ease;
+}
+.card a:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+/*      
+cook
+*/
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card2{
+    background: wheat;
+    width: 270px;
+    margin: 20px;
+    border-radius: 35px;
+}
+.chef {
+    height: 100px;
+    margin-bottom: 15px ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0 ;
+}
+.image1{
+    background-image: url(images/chef1.jpg);
+}
+.image2{
+    background-image: url(images/chef3.jpg);
+}
+.card2 h2{
+    font-size: 15px;
+    margin: 5px;
+    padding: 0%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.pa{
+    font-size: 15px;
+    padding: 10px;
+    
+}
+.card2 a{
+    background-color: brown;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.card2:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.00000000001);
+    transition: all 1s ease;
+}
+.card2 a:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+/* button */
+.fbtn{
+    text-align: center;
+    margin-left: 49%;
+    padding: 15px 20px;
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.fbtn:hover{
+    background-color: rgb(116, 35, 35);
+    transition: 0.5s ease;
+}

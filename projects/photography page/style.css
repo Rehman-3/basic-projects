@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;
+}
+.wrapper{
+    background-image: url("images/jordan-mcqueen-93g2k8D1Mi8-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+
+}
+.nav-links ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 12px;
+    padding-top: 100px;
+}
+
+.nav-links ul li a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+
+}
+.nav-links ul li a:hover{
+    transition: .6s linear;
+    border-bottom: 1px solid black;
+}
+.nav-links ul li{
+    list-style: none;
+    
+
+}
+.headings{
+    text-align: center;
+    align-items: center;
+
+    
+}
+.Main-heading{
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.sub-heading{
+    font-family: 'MonteCarlo', cursive;
+    font-size:20px;
+    letter-spacing: 4px;
+}
+h2,ul{
+    margin-bottom: 10px;
+}
+.row{
+    padding-top: 55px;
+    padding-bottom: 44px;
+}
+.col{
+    padding: 10px 60px;
+}
+.angry-grid {
+    display: grid; 
+ 
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    height:600px;
+    width:1220px;
+ }
+   
+ #item-0 {
+ 
+    background-image: url("images/pic1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 2;
+    grid-column-end: 3;
+    
+ }
+ #item-1 {
+ 
+    background-image: url("images/pic2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    grid-row-start: 2;
+    grid-column-start: 2;
+ 
+    grid-row-end: 4;
+    grid-column-end: 4;
+    
+ }
+ #item-2 {
+ 
+    background-image: url("images/pic3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    grid-row-start: 1;
+    grid-column-start: 3;
+ 
+    grid-row-end: 2;
+    grid-column-end: 4;
+    
+ }
+ #item-3 {
+ 
+    background-image: url("images/pic4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 1;
+    grid-column-start: 4;
+ 
+    grid-row-end: 3;
+    grid-column-end: 5;
+    
+ }
+ #item-4 {
+ 
+    background-image: url("images/pic5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 3;
+    grid-column-start: 1;
+ 
+    grid-row-end: 5;
+    grid-column-end: 2;
+    
+ }
+ #item-5 {
+ 
+    background-image: url("images/pic6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 3;
+    grid-column-start: 4;
+ 
+    grid-row-end: 4;
+    grid-column-end: 5;
+    
+ }
+ #item-6 {
+ 
+    background-image: url("images/pic7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 4;
+    grid-column-start: 3;
+ 
+    grid-row-end: 5;
+    grid-column-end: 5;
+    
+ }
+ #item-7 {
+ 
+    background-image: url("images/pic8.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 4;
+    grid-column-start: 2;
+ 
+    grid-row-end: 5;
+    grid-column-end: 3;
+    
+ }
+ #item-8 {
+ 
+    background-image: url("images/pic9.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    grid-row-start: 2;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 2;
+    
+ }
+ .bg{
+     background-color: rgb(112, 85, 44);;
+ }
+ .thumbnail:hover 
+ {
+     transition: .2s;
+     transform: scale(1.15);
+ }
+ .col h1{
+color: white;
+font-family: "Poppins";
+font-weight: lighter;
+letter-spacing: 10px;
+margin-bottom: 22px;
+font-size: 30px;
+
+ }
+
+ .bg1{
+     background-color:rgb(63, 50, 30);
+     height: 60vh;
+
+ }
+.lines p{
+    color: blanchedalmond;
+    font-family: "Poppins";
+    margin-bottom: 22px;
+}
+.line .btn{
+    text-decoration: none;
+    margin-top: 20px;
+    
+    padding: 10px 20px;
+    background-color: rgb(63, 50, 30);
+    color: white;
+    font-family: "Poppins";
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.lines h1{
+    margin-bottom: 22px;
+}
+.btn:hover{
+    background-color: white;
+    font-weight: bolder;
+    color:rgb(85, 67, 39);
+    transition: all 0.6s ease;
+}
+.bg2{
+    height: 70vh;
+    background-color:rgb(39, 31, 18);
+}
+.about{
+    color: white;
+    font-family: "Poppins";
+}
+.about h1{
+    margin-bottom: 22px;
+}
+.about p{
+    margin-bottom: 22px
+}
+.about li{
+    list-style-position: inside;
+    list-style-type: square;
+
+}

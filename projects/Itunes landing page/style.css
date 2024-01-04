@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.one{
+    height: 100vh;
+    background-image:  linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)), url("images/frank-septillion-Qrspubmx6kE-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-links{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(73, 72, 72);
+    height: 8vh;
+}
+
+.nav-links ul {
+    position: fixed;
+    display: flex;
+}
+.nav-links ul li a{
+    font-family: "Poppins";
+    margin: 10px 0px;
+    padding: 5px 20px;
+    padding-top: 100%;
+    text-decoration: none;
+    background-color: rgb(73, 72, 72);
+    color: white;
+    font-size: 18px;
+    
+}
+.nav-links ul li{
+    list-style: none;
+   
+}
+.nav-links ul li a:hover{
+  background-color: rgb(92, 92, 92);;
+  padding-bottom: 20px;
+   
+}
+.row{
+    padding-top: 66px;
+    padding-bottom: 44px;
+}
+.column{
+    margin: 0px 10px;
+    padding: 0px 20px ;
+}
+.headings{
+    font-family: "Poppins";
+    color: white;
+    text-align: center; 
+}
+.headings h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+.headings h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.headings p{
+    font-size: 20px;
+    margin: 0px 30px;
+}
+.two{
+    background-color: rgb(65, 65, 65);
+    height:100%;
+}
+.music{
+    text-align: center;
+    font-family: "Poppins";
+}
+.music h1,h2,button,p{
+    margin-bottom: 22px;
+}
+.music h1,h2,p{
+    color: white;
+}
+.music h1{
+    font-size: 50px;
+}
+.music h2{
+    font-size: 35px;
+}
+.music p{
+    font-size: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    font-family: "Poppins";
+    background-color: rgb(211, 23, 23);
+    color: white;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(255, 62, 62);
+    cursor: pointer;
+}
+.video{
+    text-align: center;
+    align-items: center;
+    color: #000;
+    font-family: "Poppins";
+    height: 100%;
+}
+.video p{
+    color: black;
+}
+.video h1,a,p{
+    margin-bottom: 22px;
+
+}
+.video h1{
+    font-size: 35px;
+}
+.btn1{
+    padding: 10px 10px;
+
+    font-family: "Poppins";
+    background-color: rgb(63, 81, 236);
+    color: white;
+    border: none;
+    
+}
+.btn1:hover{
+    background-color: rgb(122, 134, 248);
+    cursor: pointer;
+}
+.sol{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.img2{
+    border-radius: 20px;
+}
+.four{
+    height: 80vh;
+    background-image: url("images/finalized.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ran{
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins";
+    color: white;
+}
+.ran h1{
+    margin-top: 75px;
+    margin-bottom: 22px;
+    font-size: 40px;
+}
+.ran p{
+    font-size: 20px;
+}
+.five{
+   
+    font-family: "Poppins";
+}
+.gift{
+    display: flex;
+}
+.photo img{
+    height: 400px;
+    width: 450px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+.disc h1{
+    margin-top: 28px;
+    font-size: 30px;
+    margin-bottom: 22px;
+
+}
+.disc{
+    margin-right: 20px;
+}
+.disc p{
+    color: black;
+    margin-right: 30px;
+}
+.disc a{
+    text-decoration: none;
+}
+.six{
+    
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    
+    width: 100%;
+    
+    
+}
+.primary-footer1,.primary-footer2,.primary-footer3,.primary-footer4{
+    
+    margin: 0px auto;
+    
+
+}
+.primary-footer3{
+    margin-bottom: 25px;
+}
+.siix{
+    color: white;
+    font-family: "Poppins";
+    background-color: rgb(77, 77, 78);
+    align-content: center;
+}
+.six ul li{
+    font-size: 12px;
+    list-style: none;
+
+}
+footer{
+    background-color: rgb(48, 46, 46);
+    color: white;
+    height: 6vh;
+    align-content: center;
+    text-align: center;
+}
+footer p{
+    padding-top: 10px;
+}

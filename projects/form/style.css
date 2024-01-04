@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 70px;
+    font-family:cursive;
+    color: #1868ae;
+}
+p{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1868ae;
+}
+body{
+    text-align: center;
+    background-color: #d9a5b3;
+}
+.master-div{
+    width: 80%;
+    margin: auto;
+    background-color: #c6d7eb; 
+    border-radius: 10px;
+    padding: 20px 10px 10px 10px;
+}
+.fields {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    vertical-align: middle;
+  }
+  .labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    
+  }
+  .row{
+      padding: 10px;
+      margin: 10px;
+  }
+  .input-fields{
+      width:50%;
+      height: 10px;
+      margin: 5px;
+      padding: 10px;
+      color:#1868ae;
+      font-family: cursive;
+  }
+  .dropdown{
+    width:50%;
+    height: 25px;
+    margin: 5px;
+    color: #1868ae;
+    font-family: cursive;
+    
+  }
+  ul li{
+      list-style: none;
+  }
+  .radio{
+    height: 10px;
+    margin: 5px;
+    margin-top: 0%;
+    padding: 10px;
+    font-family: cursive;
+  }
+  #description{
+    width:50%;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+  }
+  .labels{
+      font-size: 20px;
+      color: #1868ae;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #location{
+      font-size: 15px;
+      color: #1868ae;
+  }
+
+  .radio label {
+      font-size: 15px;
+      color: #1868ae;
+  }
+  .text-fields{
+      font-family: cursive;
+      font-size: 12px;
+      color: #1868ae;
+  }
+  .btn{
+      
+      width: 100px;
+      text-align: center;
+      height: 50px;
+      border: 1px solid #fc97b2;
+      border-radius: 4px;
+      text-transform: capitalize;
+      font-size: 20px;
+      color:white;
+      background-color: #d9a5b3;
+      transition: 0.8s;
+  }
+  .btn:hover{
+      color: black;
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 10px;
+  }
